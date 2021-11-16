@@ -48,6 +48,8 @@ const reviews = [
   let random = document.querySelector(".random-btn")
 
   window.addEventListener("DOMContentLoaded", function(){
+
+    loadData()
     
     next.addEventListener("click", function(){
         current++
