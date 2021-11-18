@@ -13,3 +13,7 @@ btn.addEventListener("click", function(){
     color.textContent = newColor
 });
 
+function random(){
+    let num = Math.floor(Math.random()*hex.length)
+    return num
+}
